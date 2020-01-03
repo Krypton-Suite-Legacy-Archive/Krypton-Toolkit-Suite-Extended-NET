@@ -2,7 +2,7 @@
 /*
  * Use of this source code is governed by a BSD-style
  * license that can be found in the LICENSE.md file or at
- * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.480/blob/master/LICENSE
+ * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.470/blob/master/LICENSE
  *
  */
 #endregion
@@ -161,7 +161,7 @@ namespace ExtendedDialogs.Dialogs.Toast.Old
             // 
             // kbtnDismiss
             // 
-            this.kbtnDismiss.Location = new System.Drawing.Point(480, 6);
+            this.kbtnDismiss.Location = new System.Drawing.Point(470, 6);
             this.kbtnDismiss.Name = "kbtnDismiss";
             this.kbtnDismiss.Size = new System.Drawing.Size(154, 31);
             this.kbtnDismiss.StateCommon.Content.LongText.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -733,7 +733,7 @@ namespace ExtendedDialogs.Dialogs.Toast.Old
             switch (iconType)
             {
                 case IconType.NONE:
-                    AdjustLayout(new Size(622, 58), new Size(622, 153), new Point(12, 6), new Point(480, 6), false);
+                    AdjustLayout(new Size(622, 58), new Size(622, 153), new Point(12, 6), new Point(470, 6), false);
                     break;
                 case IconType.QUESTION:
                     pbxIcon.Image = Properties.Resources.Question_128_x_128;
@@ -835,7 +835,7 @@ namespace ExtendedDialogs.Dialogs.Toast.Old
 
             kbtnAction.RightToLeft = RightToLeft.No;
 
-            kbtnDismiss.Location = new Point(480, 6);
+            kbtnDismiss.Location = new Point(470, 6);
 
             kbtnDismiss.RightToLeft = RightToLeft.No;
         }
@@ -882,7 +882,7 @@ namespace ExtendedDialogs.Dialogs.Toast.Old
 
         private void ResetDefaultLayout()
         {
-            AdjustLayout(new Size(487, 58), new Size(487, 153), new Point(12, 6), new Point(480, 6));
+            AdjustLayout(new Size(487, 58), new Size(487, 153), new Point(12, 6), new Point(470, 6));
         }
 
         /// <summary>

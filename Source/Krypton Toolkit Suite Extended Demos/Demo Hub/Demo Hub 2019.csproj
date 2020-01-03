@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>DemoHub</RootNamespace>
     <AssemblyName>Demo Hub</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -96,14 +96,14 @@
     <None Include="Resources\KR 512 x 512 Orange.png" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="KryptonExtendedToolkit5480CoreModule">
-      <Version>5.480.1400</Version>
+    <PackageReference Include="KryptonExtendedToolkit5470CoreModule">
+      <Version>5.470.1400</Version>
     </PackageReference>
-    <PackageReference Include="KryptonExtendedToolkit5480NaviSuiteModule">
-      <Version>5.480.441</Version>
+    <PackageReference Include="KryptonExtendedToolkit5470NaviSuiteModule">
+      <Version>5.470.441</Version>
     </PackageReference>
-    <PackageReference Include="KryptonToolkitSuite5480CoreModule">
-      <Version>5.480.1300</Version>
+    <PackageReference Include="KryptonToolkitSuite5470CoreModule">
+      <Version>5.470.1300</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

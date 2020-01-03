@@ -8,11 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>Playground</RootNamespace>
     <AssemblyName>Demos</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <ApplicationVersion>1.0.14.0</ApplicationVersion>
-    <AssemblyVersion>5.480.415.0</AssemblyVersion>
+    <AssemblyVersion>5.470.415.0</AssemblyVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -39,7 +39,7 @@
     <ApplicationIcon>Resources\KR 48 x 48 Orange.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Global Utilities, Version=5.480.507.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Global Utilities, Version=5.470.507.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Global Utilities\bin\Debug\Global Utilities.dll</HintPath>
     </Reference>
@@ -365,20 +365,20 @@
     <PackageReference Include="Cyotek.Windows.Forms.ColorPicker">
       <Version>1.7.2</Version>
     </PackageReference>
-    <PackageReference Include="KryptonToolkitSuite5480CoreModule">
-      <Version>5.480.2098</Version>
+    <PackageReference Include="KryptonToolkitSuite5470CoreModule">
+      <Version>5.470.2098</Version>
     </PackageReference>
-    <PackageReference Include="KryptonToolkitSuite5480DockingModule">
-      <Version>5.480.753</Version>
+    <PackageReference Include="KryptonToolkitSuite5470DockingModule">
+      <Version>5.470.753</Version>
     </PackageReference>
-    <PackageReference Include="KryptonToolkitSuite5480NavigatorModule">
-      <Version>5.480.796</Version>
+    <PackageReference Include="KryptonToolkitSuite5470NavigatorModule">
+      <Version>5.470.796</Version>
     </PackageReference>
-    <PackageReference Include="KryptonToolkitSuite5480RibbonModule">
-      <Version>5.480.850</Version>
+    <PackageReference Include="KryptonToolkitSuite5470RibbonModule">
+      <Version>5.470.850</Version>
     </PackageReference>
-    <PackageReference Include="KryptonToolkitSuite5480WorkspaceModule">
-      <Version>5.480.727</Version>
+    <PackageReference Include="KryptonToolkitSuite5470WorkspaceModule">
+      <Version>5.470.727</Version>
     </PackageReference>
     <PackageReference Include="WindowsAPICodePack">
       <Version>1.1.0</Version>

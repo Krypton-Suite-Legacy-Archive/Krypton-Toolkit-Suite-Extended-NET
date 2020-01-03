@@ -2,7 +2,7 @@
 /*
  * Use of this source code is governed by a BSD-style
  * license that can be found in the LICENSE.md file or at
- * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.480/blob/master/LICENSE
+ * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.470/blob/master/LICENSE
  *
  */
 #endregion
@@ -927,7 +927,7 @@ namespace PaletteEditor.UX
 
         private void submitFeedbackToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Process.Start("https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.480/issues/35");
+            Process.Start("https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.470/issues/35");
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)

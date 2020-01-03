@@ -2,7 +2,7 @@
 /*
  * Use of this source code is governed by a BSD-style
  * license that can be found in the LICENSE.md file or at
- * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.480/blob/master/LICENSE
+ * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.470/blob/master/LICENSE
  *
  */
 #endregion
@@ -63,7 +63,7 @@ namespace ExtendedControls.ExtendedToolkit.UI.Security
     //        // 
     //        // kbtnGeneratePassword
     //        // 
-    //        this.kbtnGeneratePassword.Location = new System.Drawing.Point(480, 148);
+    //        this.kbtnGeneratePassword.Location = new System.Drawing.Point(470, 148);
     //        this.kbtnGeneratePassword.Name = "kbtnGeneratePassword";
     //        this.kbtnGeneratePassword.Size = new System.Drawing.Size(156, 29);
     //        this.kbtnGeneratePassword.StateCommon.Content.LongText.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

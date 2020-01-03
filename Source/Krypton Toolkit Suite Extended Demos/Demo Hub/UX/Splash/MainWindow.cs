@@ -123,12 +123,12 @@ namespace DemoHub.UX.Splash
             this.labelKryptonExplorer.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.TitleControl;
             this.labelKryptonExplorer.Location = new System.Drawing.Point(17, 54);
             this.labelKryptonExplorer.Name = "labelKryptonExplorer";
-            this.labelKryptonExplorer.Size = new System.Drawing.Size(480, 28);
+            this.labelKryptonExplorer.Size = new System.Drawing.Size(470, 28);
             this.labelKryptonExplorer.StateCommon.ShortText.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelKryptonExplorer.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
             this.labelKryptonExplorer.TabIndex = 0;
             this.labelKryptonExplorer.Values.ExtraText = "Built for .Net 4.7";
-            this.labelKryptonExplorer.Values.Text = "Krypton Extended Toolkit 5.480";
+            this.labelKryptonExplorer.Values.Text = "Krypton Extended Toolkit 5.470";
             // 
             // pictureBoxRight
             // 

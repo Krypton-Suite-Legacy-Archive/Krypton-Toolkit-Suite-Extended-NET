@@ -37,7 +37,7 @@ namespace ExtendedControls.ExtendedToolkit.Controls.KryptonControls
             this.kryptonTreeView1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.kryptonTreeView1.Location = new System.Drawing.Point(0, 82);
             this.kryptonTreeView1.Name = "kryptonTreeView1";
-            this.kryptonTreeView1.Size = new System.Drawing.Size(481, 480);
+            this.kryptonTreeView1.Size = new System.Drawing.Size(481, 470);
             this.kryptonTreeView1.TabIndex = 0;
             // 
             // kryptonListBox1

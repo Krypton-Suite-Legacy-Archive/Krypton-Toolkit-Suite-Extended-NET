@@ -2,7 +2,7 @@
 /*
  * Use of this source code is governed by a BSD-style
  * license that can be found in the LICENSE.md file or at
- * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.480/blob/master/LICENSE
+ * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.470/blob/master/LICENSE
  *
  */
 #endregion
@@ -42,7 +42,7 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("5.480.794.0")]
-[assembly: AssemblyFileVersion("5.480.794.0")]
+[assembly: AssemblyVersion("5.470.794.0")]
+[assembly: AssemblyFileVersion("5.470.794.0")]
 [assembly: NeutralResourcesLanguage("en-GB")]
 

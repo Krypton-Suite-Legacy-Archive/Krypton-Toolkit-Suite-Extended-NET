@@ -2,7 +2,7 @@
 /*
  * Use of this source code is governed by a BSD-style
  * license that can be found in the LICENSE.md file or at
- * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.480/blob/master/LICENSE
+ * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.470/blob/master/LICENSE
  *
  */
 #endregion
@@ -1560,7 +1560,7 @@ namespace PaletteExplorer.UX.New
             this.kryptonPage2.Size = new System.Drawing.Size(1660, 690);
             this.kryptonPage2.Text = "Circular Display";
             this.kryptonPage2.ToolTipTitle = "Page ToolTip";
-            this.kryptonPage2.UniqueName = "c93c9b60d5274878be88f907b4809e18";
+            this.kryptonPage2.UniqueName = "c93c9b60d5274878be88f907b4709e18";
             // 
             // cpbcPreview
             // 

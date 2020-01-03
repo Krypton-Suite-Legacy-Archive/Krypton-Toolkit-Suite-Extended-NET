@@ -8,10 +8,10 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>PaletteComposer</RootNamespace>
     <AssemblyName>Palette Composer</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <AssemblyVersion>5.480.565.0</AssemblyVersion>
+    <AssemblyVersion>5.470.565.0</AssemblyVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -270,8 +270,8 @@
     <None Include="Resources\TopTrackBar1.png" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="KryptonToolkitSuite5480">
-      <Version>5.480.1300</Version>
+    <PackageReference Include="KryptonToolkitSuite5470">
+      <Version>5.470.1300</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

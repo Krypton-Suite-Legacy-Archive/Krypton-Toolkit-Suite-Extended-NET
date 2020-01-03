@@ -9,9 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>KryptonApplicationUpdater</RootNamespace>
     <AssemblyName>Krypton Application Updater</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AssemblyVersion>5.480.468.0</AssemblyVersion>
+    <AssemblyVersion>5.470.468.0</AssemblyVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -198,8 +198,8 @@
     <Content Include="Sample\Update.xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="KryptonToolkitSuite5480">
-      <Version>5.480.2098</Version>
+    <PackageReference Include="KryptonToolkitSuite5470">
+      <Version>5.470.2098</Version>
     </PackageReference>
     <PackageReference Include="WindowsAPICodePack">
       <Version>1.1.0</Version>

@@ -2,7 +2,7 @@
 /*
  * Use of this source code is governed by a BSD-style
  * license that can be found in the LICENSE.md file or at
- * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.480/blob/master/LICENSE
+ * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.470/blob/master/LICENSE
  *
  */
 #endregion
@@ -90,7 +90,7 @@ namespace ExtendedControls.ExtendedToolkit.Wizard.Controls
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.picImage);
             this.Name = "InfoContainer";
-            this.Size = new System.Drawing.Size(480, 388);
+            this.Size = new System.Drawing.Size(470, 388);
             this.Load += new System.EventHandler(this.InfoContainer_Load);
             this.ResumeLayout(false);
 

@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>MediaControls</RootNamespace>
     <AssemblyName>Media Controls</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -46,8 +46,8 @@
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="KryptonToolkitSuite5480CoreModule">
-      <Version>5.480.2000</Version>
+    <PackageReference Include="KryptonToolkitSuite5470CoreModule">
+      <Version>5.470.2000</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

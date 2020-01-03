@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>Circular_PictureBox_Example</RootNamespace>
     <AssemblyName>Circular PictureBox Example</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -33,41 +33,41 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Common, Version=5.480.609.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\KryptonExtendedToolkit5480CoreModule.5.480.1400\lib\net47\Common.dll</HintPath>
+    <Reference Include="Common, Version=5.470.609.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\KryptonExtendedToolkit5470CoreModule.5.470.1400\lib\net47\Common.dll</HintPath>
     </Reference>
-    <Reference Include="Krypton Docking, Version=5.480.740.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
-      <HintPath>..\packages\KryptonExtendedToolkit5480CoreModule.5.480.1400\lib\net47\Krypton Docking.dll</HintPath>
+    <Reference Include="Krypton Docking, Version=5.470.740.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\KryptonExtendedToolkit5470CoreModule.5.470.1400\lib\net47\Krypton Docking.dll</HintPath>
     </Reference>
-    <Reference Include="Krypton Navigator, Version=5.480.761.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
-      <HintPath>..\packages\KryptonExtendedToolkit5480CoreModule.5.480.1400\lib\net47\Krypton Navigator.dll</HintPath>
+    <Reference Include="Krypton Navigator, Version=5.470.761.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\KryptonExtendedToolkit5470CoreModule.5.470.1400\lib\net47\Krypton Navigator.dll</HintPath>
     </Reference>
-    <Reference Include="Krypton Ribbon, Version=5.480.815.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
-      <HintPath>..\packages\KryptonExtendedToolkit5480CoreModule.5.480.1400\lib\net47\Krypton Ribbon.dll</HintPath>
+    <Reference Include="Krypton Ribbon, Version=5.470.815.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\KryptonExtendedToolkit5470CoreModule.5.470.1400\lib\net47\Krypton Ribbon.dll</HintPath>
     </Reference>
-    <Reference Include="Krypton Toolkit Suite Extended Core, Version=5.480.1400.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\KryptonExtendedToolkit5480CoreModule.5.480.1400\lib\net47\Krypton Toolkit Suite Extended Core.dll</HintPath>
+    <Reference Include="Krypton Toolkit Suite Extended Core, Version=5.470.1400.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\KryptonExtendedToolkit5470CoreModule.5.470.1400\lib\net47\Krypton Toolkit Suite Extended Core.dll</HintPath>
     </Reference>
-    <Reference Include="Krypton Toolkit, Version=5.480.1252.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
-      <HintPath>..\packages\KryptonExtendedToolkit5480CoreModule.5.480.1400\lib\net47\Krypton Toolkit.dll</HintPath>
+    <Reference Include="Krypton Toolkit, Version=5.470.1252.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\KryptonExtendedToolkit5470CoreModule.5.470.1400\lib\net47\Krypton Toolkit.dll</HintPath>
     </Reference>
-    <Reference Include="Krypton Workspace, Version=5.480.714.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
-      <HintPath>..\packages\KryptonExtendedToolkit5480CoreModule.5.480.1400\lib\net47\Krypton Workspace.dll</HintPath>
+    <Reference Include="Krypton Workspace, Version=5.470.714.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\KryptonExtendedToolkit5470CoreModule.5.470.1400\lib\net47\Krypton Workspace.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\KryptonExtendedToolkit5480CoreModule.5.480.1400\lib\net47\Microsoft.WindowsAPICodePack.dll</HintPath>
+      <HintPath>..\packages\KryptonExtendedToolkit5470CoreModule.5.470.1400\lib\net47\Microsoft.WindowsAPICodePack.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.WindowsAPICodePack.ExtendedLinguisticServices, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\KryptonExtendedToolkit5480CoreModule.5.480.1400\lib\net47\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll</HintPath>
+      <HintPath>..\packages\KryptonExtendedToolkit5470CoreModule.5.470.1400\lib\net47\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.WindowsAPICodePack.Sensors, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\KryptonExtendedToolkit5480CoreModule.5.480.1400\lib\net47\Microsoft.WindowsAPICodePack.Sensors.dll</HintPath>
+      <HintPath>..\packages\KryptonExtendedToolkit5470CoreModule.5.470.1400\lib\net47\Microsoft.WindowsAPICodePack.Sensors.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.WindowsAPICodePack.Shell, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\KryptonExtendedToolkit5480CoreModule.5.480.1400\lib\net47\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+      <HintPath>..\packages\KryptonExtendedToolkit5470CoreModule.5.470.1400\lib\net47\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.WindowsAPICodePack.ShellExtensions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\KryptonExtendedToolkit5480CoreModule.5.480.1400\lib\net47\Microsoft.WindowsAPICodePack.ShellExtensions.dll</HintPath>
+      <HintPath>..\packages\KryptonExtendedToolkit5470CoreModule.5.470.1400\lib\net47\Microsoft.WindowsAPICodePack.ShellExtensions.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

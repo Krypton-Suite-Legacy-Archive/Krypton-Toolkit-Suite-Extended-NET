@@ -2,7 +2,7 @@
 /*
  * Use of this source code is governed by a BSD-style
  * license that can be found in the LICENSE.md file or at
- * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.480/blob/master/LICENSE
+ * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.470/blob/master/LICENSE
  *
  */
 #endregion
@@ -196,7 +196,7 @@ namespace ExtendedControls.ExtendedToolkit.UI.Drawing
             // 
             // ksbBrightness
             // 
-            this.ksbBrightness.Location = new System.Drawing.Point(129, 480);
+            this.ksbBrightness.Location = new System.Drawing.Point(129, 470);
             this.ksbBrightness.Name = "ksbBrightness";
             this.ksbBrightness.Orientation = ExtendedControls.Base.Code.ScrollBar.CustomScrollBar.ScrollBarOrientation.HORIZONTAL;
             this.ksbBrightness.Size = new System.Drawing.Size(459, 19);
