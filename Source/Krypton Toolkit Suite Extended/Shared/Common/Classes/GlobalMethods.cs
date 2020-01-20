@@ -12,7 +12,6 @@ using Microsoft.WindowsAPICodePack.Taskbar;
 using System;
 using System.ComponentModel;
 using System.Diagnostics;
-using System.Management;
 using System.Security.Principal;
 using System.Windows.Forms;
 
