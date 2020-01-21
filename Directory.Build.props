@@ -5,5 +5,7 @@
    <Company>Peter William Wagner</Company>
    <Authors>Peter William Wagner</Authors>
    <Owners>Peter William Wagner</Owners>
+   <!-- version number used for the assemblies and the nuget packages -->
+	<LibraryVersion>5.490.2020</LibraryVersion>
 </PropertyGroup>
 </Project>
