@@ -12,7 +12,7 @@ using ComponentFactory.Krypton.Toolkit;
 using Core;
 using Core.Classes.IO;
 using Core.Enumerations;
-using ExtendedControls.ExtendedToolkit.Controls;
+using KryptonToolkitSuiteExtendedCore;
 using System;
 using System.Collections.Generic;
 using System.Drawing;

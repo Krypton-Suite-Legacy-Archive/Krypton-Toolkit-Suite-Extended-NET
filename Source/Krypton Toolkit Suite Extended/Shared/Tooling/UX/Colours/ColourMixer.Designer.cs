@@ -32,7 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ColourMixer));
             this.kryptonPanel1 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.kbtnConvertToRGB = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-            this.cpbColourPreview = new ExtendedControls.ExtendedToolkit.Controls.CircularPictureBox();
+            this.cpbColourPreview = new KryptonToolkitSuiteExtendedCore.CircularPictureBox();
             this.ktxtHexValue = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.kbtnGenerateBlueValue = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.kbtnGenerateGreenValue = new ComponentFactory.Krypton.Toolkit.KryptonButton();
@@ -519,7 +519,7 @@
         private System.Windows.Forms.Panel panel1;
         private ComponentFactory.Krypton.Toolkit.KryptonButton kbtnOk;
         private ComponentFactory.Krypton.Toolkit.KryptonButton kbtnDefineOtherColours;
-        private ExtendedControls.ExtendedToolkit.Controls.CircularPictureBox cpbColourPreview;
+        private KryptonToolkitSuiteExtendedCore.CircularPictureBox cpbColourPreview;
         private ComponentFactory.Krypton.Toolkit.KryptonColorButton kcbBaseColour;
         private ComponentFactory.Krypton.Toolkit.KryptonButton kbtnOptions;
         private ComponentFactory.Krypton.Toolkit.KryptonButton kbtnConvertToRGB;

@@ -1,13 +1,13 @@
-﻿using System;
-using System.ComponentModel;
-using System.IO;
-using System.Security.Cryptography;
-using System.Windows.Forms;
-using APICodePackExtended;
+﻿using APICodePackExtended;
 using Common;
 using Common.Classes;
 using ComponentFactory.Krypton.Toolkit;
 using Microsoft.WindowsAPICodePack.Taskbar;
+using System;
+using System.ComponentModel;
+using System.IO;
+using System.Security.Cryptography;
+using System.Windows.Forms;
 using ToolkitSettings.Classes.Global;
 
 namespace KryptonAPICodePackExtendedDialogs
@@ -1291,7 +1291,7 @@ namespace KryptonAPICodePackExtendedDialogs
 
                     md5.TransformFinalBlock(buffer, 0, 0);
 
-                    e.Result = HashingHelper.BuildFileHash(md5.Hash, 32);
+                    e.Result = Common.HashingHelper.BuildFileHash(md5.Hash, 32);
                 }
             }
         }
@@ -1338,7 +1338,7 @@ namespace KryptonAPICodePackExtendedDialogs
 
                     sha1.TransformFinalBlock(buffer, 0, 0);
 
-                    e.Result = HashingHelper.BuildFileHash(sha1.Hash, 40);
+                    e.Result = Common.HashingHelper.BuildFileHash(sha1.Hash, 40);
                 }
             }
         }

@@ -15,4 +15,10 @@
     <PackageReference Include="WindowsAPICodePack" Version="1.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Full Toolkit\Extended Controls\Extended Controls 2019.csproj" />
+    <ProjectReference Include="..\..\Shared\Common\Common 2019.csproj" />
+    <ProjectReference Include="..\..\Shared\Toolkit Settings\Toolkit Settings 2019.csproj" />
+  </ItemGroup>
+
 </Project>

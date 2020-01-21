@@ -210,6 +210,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APICodePack Extended 2019",
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extended Toolkit Core 2019", "Componentisation\Core\Extended Toolkit Core 2019.csproj", "{5F28100D-C9A0-4361-B780-7AC132A421DF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EA6E7878-FCCB-416C-8FE1-E626D478A7A7} = {EA6E7878-FCCB-416C-8FE1-E626D478A7A7}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extended Colour Controls 2019", "Componentisation\Extended Colour Controls\Extended Colour Controls 2019.csproj", "{A2F6A6C7-A8A9-4509-93E0-EDF09B6A03A7}"
 EndProject
@@ -226,12 +229,18 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Information Box 2019", "Componentisation\Information Box\Information Box 2019.csproj", "{37A347A2-38D0-43BD-98E4-198F8A2BF032}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IO Components 2019", "Componentisation\IO Components\IO Components 2019.csproj", "{D511D3C1-3F1F-49D7-80EB-BBAB364F4A0F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1C9153E4-CDC4-44C9-9794-1D144FE87A1F} = {1C9153E4-CDC4-44C9-9794-1D144FE87A1F}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Item Templates 2019", "Componentisation\Item Templates\Item Templates 2019.csproj", "{187B24BA-4B66-4D61-9BD6-D0E83DB45BD5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Krypton Outlook Grid 2019", "Componentisation\Krypton Outlook Grid\Krypton Outlook Grid 2019.csproj", "{2A10C696-45AD-48AA-8EAD-2CB322672972}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Krypton Sparkle 2019", "Componentisation\Krypton Sparkle\Krypton Sparkle 2019.csproj", "{501F76BC-0CC8-4680-9497-489539D65944}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3FEB06A7-B28C-4674-8C84-18A75EDAB3EB} = {3FEB06A7-B28C-4674-8C84-18A75EDAB3EB}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Krypton Wizard 2019", "Componentisation\Krypton Wizard\Krypton Wizard 2019.csproj", "{CA97E339-2014-47E3-890B-DF35F31EC11F}"
 EndProject

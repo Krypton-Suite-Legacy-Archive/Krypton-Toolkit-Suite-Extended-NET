@@ -27,7 +27,7 @@ namespace KryptonApplicationUpdater.UI.Advanced.XMLBased
 
         private WebClient downloadClient = new WebClient();
 
-        private GlobalMethods globalMethods = new GlobalMethods();
+        private GlobalUtilities.Classes.GlobalMethods globalMethods = new GlobalUtilities.Classes.GlobalMethods();
 
         private InternalApplicationUpdaterSettingsManager internalApplicationUpdaterSettingsManager = new InternalApplicationUpdaterSettingsManager();
 

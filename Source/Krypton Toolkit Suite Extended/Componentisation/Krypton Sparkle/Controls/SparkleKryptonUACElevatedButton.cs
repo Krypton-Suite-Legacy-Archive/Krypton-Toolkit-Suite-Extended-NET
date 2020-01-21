@@ -1,6 +1,7 @@
 ﻿using Common;
 using Common.Classes;
 using ComponentFactory.Krypton.Toolkit;
+using Core.Classes.Other;
 using KryptonToolkitSuiteExtendedCore;
 using System;
 using System.ComponentModel;

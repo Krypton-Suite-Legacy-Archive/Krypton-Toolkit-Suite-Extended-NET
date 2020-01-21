@@ -1,5 +1,5 @@
 ﻿using ComponentFactory.Krypton.Toolkit;
-using KryptonToolkitSuiteExtendedCore;
+using ExtendedControls.ExtendedToolkit.Controls;
 using System;
 using System.Collections;
 using System.ComponentModel;

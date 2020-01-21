@@ -17,4 +17,9 @@
     <PackageReference Include="WindowsAPICodePack" Version="1.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Componentisation\Core\Extended Toolkit Core 2019.csproj" />
+    <ProjectReference Include="..\Toolkit Settings\Toolkit Settings 2019.csproj" />
+  </ItemGroup>
+
 </Project>
