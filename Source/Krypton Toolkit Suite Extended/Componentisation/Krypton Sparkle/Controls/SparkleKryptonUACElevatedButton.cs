@@ -36,7 +36,7 @@ namespace KryptonSparkle.Controls
 
         private int _cornerRadius;
 
-        private GlobalMethods _globalMethods = new GlobalMethods();
+        private GlobalUtilities.Classes.GlobalMethods _globalMethods = new GlobalUtilities.Classes.GlobalMethods();
 
         private UtilityMethods _utilityMethods = new UtilityMethods();
         #endregion

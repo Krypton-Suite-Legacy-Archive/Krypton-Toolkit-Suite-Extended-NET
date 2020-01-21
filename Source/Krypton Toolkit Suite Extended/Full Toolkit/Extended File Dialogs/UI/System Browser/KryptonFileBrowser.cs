@@ -25,7 +25,7 @@ namespace ExtendedControls.ExtendedToolkit.UI.SystemBrowser
         private KryptonPanel kryptonPanel2;
         private TreeView tvFileList;
         private KryptonButton kbtnCancel;
-        private KryptonTextBox ktxtFilePath;
+        //private KryptonTextBox ktxtFilePath;
         private KryptonButton kbtnOk;
         private TextBox txtFilePath;
         private Controls.KryptonPromptTextBox kptxtFilePath;
@@ -39,7 +39,6 @@ namespace ExtendedControls.ExtendedToolkit.UI.SystemBrowser
             this.components = new System.ComponentModel.Container();
             this.kryptonPanel1 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.txtFilePath = new System.Windows.Forms.TextBox();
-            this.ktxtFilePath = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.tvFileList = new System.Windows.Forms.TreeView();
             this.ktvFileList = new ComponentFactory.Krypton.Toolkit.KryptonTreeView();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -48,7 +47,6 @@ namespace ExtendedControls.ExtendedToolkit.UI.SystemBrowser
             this.kbtnOk = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.kbtnCancel = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.ilSystemImages = new System.Windows.Forms.ImageList(this.components);
-            this.kptxtFilePath = new ExtendedControls.ExtendedToolkit.Controls.KryptonPromptTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel1)).BeginInit();
             this.kryptonPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel2)).BeginInit();
@@ -59,7 +57,6 @@ namespace ExtendedControls.ExtendedToolkit.UI.SystemBrowser
             // 
             this.kryptonPanel1.Controls.Add(this.txtFilePath);
             this.kryptonPanel1.Controls.Add(this.kptxtFilePath);
-            this.kryptonPanel1.Controls.Add(this.ktxtFilePath);
             this.kryptonPanel1.Controls.Add(this.tvFileList);
             this.kryptonPanel1.Controls.Add(this.ktvFileList);
             this.kryptonPanel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -75,14 +72,6 @@ namespace ExtendedControls.ExtendedToolkit.UI.SystemBrowser
             this.txtFilePath.Name = "txtFilePath";
             this.txtFilePath.Size = new System.Drawing.Size(466, 27);
             this.txtFilePath.TabIndex = 3;
-            // 
-            // ktxtFilePath
-            // 
-            this.ktxtFilePath.Location = new System.Drawing.Point(12, 13);
-            this.ktxtFilePath.Name = "ktxtFilePath";
-            this.ktxtFilePath.Size = new System.Drawing.Size(466, 27);
-            this.ktxtFilePath.StateCommon.Content.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ktxtFilePath.TabIndex = 4;
             // 
             // tvFileList
             // 
@@ -161,19 +150,6 @@ namespace ExtendedControls.ExtendedToolkit.UI.SystemBrowser
             this.ilSystemImages.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
             this.ilSystemImages.ImageSize = new System.Drawing.Size(16, 16);
             this.ilSystemImages.TransparentColor = System.Drawing.Color.Transparent;
-            // 
-            // kptxtFilePath
-            // 
-            this.kptxtFilePath.DrawPrompt = true;
-            this.kptxtFilePath.FocusSelect = true;
-            this.kptxtFilePath.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kptxtFilePath.Location = new System.Drawing.Point(12, 13);
-            this.kptxtFilePath.Name = "kptxtFilePath";
-            this.kptxtFilePath.PromptForeColour = System.Drawing.SystemColors.GrayText;
-            this.kptxtFilePath.PromptText = "Enter directory path...";
-            this.kptxtFilePath.PromptTypeface = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kptxtFilePath.Size = new System.Drawing.Size(466, 27);
-            this.kptxtFilePath.TabIndex = 2;
             // 
             // KryptonFileBrowser
             // 
@@ -316,7 +292,7 @@ namespace ExtendedControls.ExtendedToolkit.UI.SystemBrowser
 
                 kptxtFilePath.Visible = false;
 
-                ktxtFilePath.Visible = true;
+                //ktxtFilePath.Visible = true;
 
                 ktvFileList.Visible = true;
             }
@@ -328,7 +304,7 @@ namespace ExtendedControls.ExtendedToolkit.UI.SystemBrowser
 
                 kptxtFilePath.Visible = false;
 
-                ktxtFilePath.Visible = false;
+                //ktxtFilePath.Visible = false;
 
                 ktvFileList.Visible = false;
             }

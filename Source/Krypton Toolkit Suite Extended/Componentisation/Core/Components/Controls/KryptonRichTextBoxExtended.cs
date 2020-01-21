@@ -7,6 +7,7 @@
  */
 #endregion
 
+ 
 using ComponentFactory.Krypton.Toolkit;
 using System;
 using System.ComponentModel;
@@ -54,6 +55,7 @@ namespace KryptonToolkitSuiteExtendedCore
         #endregion
 
         #region Properties        
+#if !NET45
         /// <summary>
         /// Gets or sets the selection alignment.
         /// </summary>
@@ -102,7 +104,9 @@ namespace KryptonToolkitSuiteExtendedCore
                 SendMessage(new HandleRef(this, Handle), 1095, 1, ref _pARAFORMAT);
             }
         }
-        #endregion
+#endif
+
+#endregion
 
         #region Constructor
         /// <summary>

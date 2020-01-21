@@ -11,7 +11,12 @@
 
   <ItemGroup>
     <PackageReference Include="Cyotek.Windows.Forms.ColorPicker" Version="1.7.2" />
+    <PackageReference Include="Krypton.Navigator" Version="5.490.2200" />
     <PackageReference Include="Krypton.Toolkit" Version="5.490.2200" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Extended Standard Controls\Extended Standard Controls 2019.csproj" />
   </ItemGroup>
 
 </Project>

@@ -202,6 +202,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extended Controls 2019", "Full Toolkit\Extended Controls\Extended Controls 2019.csproj", "{1C9153E4-CDC4-44C9-9794-1D144FE87A1F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extended File Dialogs 2019", "Full Toolkit\Extended File Dialogs\Extended File Dialogs 2019.csproj", "{D4644D8A-1C7A-43B6-8461-AB0B56FD6463}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1C9153E4-CDC4-44C9-9794-1D144FE87A1F} = {1C9153E4-CDC4-44C9-9794-1D144FE87A1F}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APICodePack Extended 2019", "Componentisation\APICodePack Extended\APICodePack Extended 2019.csproj", "{F129832D-6B72-4126-9614-627433CE0C7A}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -255,6 +258,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinForm Animation Extended 2019", "Componentisation\WinForm Animation Extended\WinForm Animation Extended 2019.csproj", "{5FB8D2C2-A56F-43F7-9B83-6780872C38DB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extended Dialogs 2019", "Componentisation\Extended Dialogs\Extended Dialogs 2019.csproj", "{222C7D90-9D2A-4736-B58D-80AF566BA167}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3FEB06A7-B28C-4674-8C84-18A75EDAB3EB} = {3FEB06A7-B28C-4674-8C84-18A75EDAB3EB}
+		{124496E1-E8FD-4796-B194-8FD8DB8A1896} = {124496E1-E8FD-4796-B194-8FD8DB8A1896}
+	EndProjectSection
 EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Full Toolkit Documentation", "..\Documentation\Full Toolkit Documentation\Full Toolkit Documentation.shfbproj", "{2BBF5CC9-0A5C-4943-BD81-006564E5FC61}"
 EndProject

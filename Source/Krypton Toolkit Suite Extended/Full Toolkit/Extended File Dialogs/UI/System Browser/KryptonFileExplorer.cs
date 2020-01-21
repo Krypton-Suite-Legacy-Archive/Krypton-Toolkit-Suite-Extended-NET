@@ -8,16 +8,12 @@
 #endregion
 
 using ComponentFactory.Krypton.Toolkit;
-using ExtendedControls.ExtendedToolkit.Controls.FileExplorer;
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Windows.Forms;
 
 namespace ExtendedFileDialogs.UI.SystemBrowser
 {
     public class KryptonFileExplorer : KryptonForm
     {
+        /**
         private KryptonPanel kryptonPanel1;
         private ListView lvExplorer;
         private ColumnHeader colName;
@@ -66,7 +62,7 @@ namespace ExtendedFileDialogs.UI.SystemBrowser
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.kryptonFileSystemTreeView1 = new ExtendedControls.ExtendedToolkit.Controls.KryptonControls.KryptonFileSystemTreeView();
-            this.circularPictureBox3 = new ExtendedControls.ExtendedToolkit.Controls.CircularPictureBox();
+            this.circularPictureBox3 = new CircularPictureBox();
             this.circularPictureBox2 = new ExtendedControls.ExtendedToolkit.Controls.CircularPictureBox();
             this.circularPictureBox1 = new ExtendedControls.ExtendedToolkit.Controls.CircularPictureBox();
             this.kryptonTextBox1 = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
@@ -463,5 +459,6 @@ namespace ExtendedFileDialogs.UI.SystemBrowser
         {
             InitialiseWindow();
         }
+    */
     }
 }
