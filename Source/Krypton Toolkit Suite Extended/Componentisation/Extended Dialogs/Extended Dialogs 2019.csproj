@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Cyotek.Windows.Forms.ColorPicker" Version="1.7.2" />
     <PackageReference Include="Krypton.Toolkit" Version="5.490.2200" />
   </ItemGroup>
 

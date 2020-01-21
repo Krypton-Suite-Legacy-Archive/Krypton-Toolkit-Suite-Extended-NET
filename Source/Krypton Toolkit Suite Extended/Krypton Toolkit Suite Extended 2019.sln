@@ -179,69 +179,73 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Update File Creator 2019", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Update File Maker 2019", "Applications\Update File Maker\Update File Maker 2019.csproj", "{83B06C50-5B61-467E-9620-BACF190E26F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common 2019", "Shared\Common\Common 2019.csproj", "{ECDF3883-0655-421A-BC76-8E822BC9C778}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common 2019", "Shared\Common\Common 2019.csproj", "{ECDF3883-0655-421A-BC76-8E822BC9C778}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Global Utilities 2019", "Shared\Global Utilities\Global Utilities 2019.csproj", "{124496E1-E8FD-4796-B194-8FD8DB8A1896}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Global Utilities 2019", "Shared\Global Utilities\Global Utilities 2019.csproj", "{124496E1-E8FD-4796-B194-8FD8DB8A1896}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palette Controller 2019", "Shared\Palette Controller\Palette Controller 2019.csproj", "{C0A19DFB-B380-4705-BCF0-7C5639E3553F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palette Controller 2019", "Shared\Palette Controller\Palette Controller 2019.csproj", "{C0A19DFB-B380-4705-BCF0-7C5639E3553F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence 2019", "Shared\Persistence\Persistence 2019.csproj", "{BCAF97E6-BFCC-4E12-95EC-D2AD7553D53A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence 2019", "Shared\Persistence\Persistence 2019.csproj", "{BCAF97E6-BFCC-4E12-95EC-D2AD7553D53A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core 2019", "Shared\Tooling\Core 2019.csproj", "{DDE371E2-E7ED-41A3-ADBA-DC59298CDEF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core 2019", "Shared\Tooling\Core 2019.csproj", "{DDE371E2-E7ED-41A3-ADBA-DC59298CDEF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolkit Control Settings 2019", "Shared\Toolkit Control Settings\Toolkit Control Settings 2019.csproj", "{B1178131-E303-42ED-9E9F-C808639BD40D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toolkit Control Settings 2019", "Shared\Toolkit Control Settings\Toolkit Control Settings 2019.csproj", "{B1178131-E303-42ED-9E9F-C808639BD40D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolkit Resources 2019", "Shared\Toolkit Resources\Toolkit Resources 2019.csproj", "{CFB34C40-6461-4EA1-A81C-5E207F2D7BFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toolkit Resources 2019", "Shared\Toolkit Resources\Toolkit Resources 2019.csproj", "{CFB34C40-6461-4EA1-A81C-5E207F2D7BFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolkit Settings 2019", "Shared\Toolkit Settings\Toolkit Settings 2019.csproj", "{EA6E7878-FCCB-416C-8FE1-E626D478A7A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toolkit Settings 2019", "Shared\Toolkit Settings\Toolkit Settings 2019.csproj", "{EA6E7878-FCCB-416C-8FE1-E626D478A7A7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demos 2019", "Demos\Playground\Demos 2019.csproj", "{E10C5153-0007-4DD3-930D-9D3117DB7C44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application Updater 2019", "Full Toolkit\Application Updater\Application Updater 2019.csproj", "{BCC482FD-377F-4918-B91A-09444AC90A8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application Updater 2019", "Full Toolkit\Application Updater\Application Updater 2019.csproj", "{BCC482FD-377F-4918-B91A-09444AC90A8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extended Controls 2019", "Full Toolkit\Extended Controls\Extended Controls 2019.csproj", "{1C9153E4-CDC4-44C9-9794-1D144FE87A1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extended Controls 2019", "Full Toolkit\Extended Controls\Extended Controls 2019.csproj", "{1C9153E4-CDC4-44C9-9794-1D144FE87A1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extended File Dialogs 2019", "Full Toolkit\Extended File Dialogs\Extended File Dialogs 2019.csproj", "{D4644D8A-1C7A-43B6-8461-AB0B56FD6463}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extended File Dialogs 2019", "Full Toolkit\Extended File Dialogs\Extended File Dialogs 2019.csproj", "{D4644D8A-1C7A-43B6-8461-AB0B56FD6463}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICodePack Extended 2019", "Componentisation\APICodePack Extended\APICodePack Extended 2019.csproj", "{F129832D-6B72-4126-9614-627433CE0C7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APICodePack Extended 2019", "Componentisation\APICodePack Extended\APICodePack Extended 2019.csproj", "{F129832D-6B72-4126-9614-627433CE0C7A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EA6E7878-FCCB-416C-8FE1-E626D478A7A7} = {EA6E7878-FCCB-416C-8FE1-E626D478A7A7}
+		{ECDF3883-0655-421A-BC76-8E822BC9C778} = {ECDF3883-0655-421A-BC76-8E822BC9C778}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extended Toolkit Core 2019", "Componentisation\Core\Extended Toolkit Core 2019.csproj", "{5F28100D-C9A0-4361-B780-7AC132A421DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extended Toolkit Core 2019", "Componentisation\Core\Extended Toolkit Core 2019.csproj", "{5F28100D-C9A0-4361-B780-7AC132A421DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extended Colour Controls 2019", "Componentisation\Extended Colour Controls\Extended Colour Controls 2019.csproj", "{A2F6A6C7-A8A9-4509-93E0-EDF09B6A03A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extended Colour Controls 2019", "Componentisation\Extended Colour Controls\Extended Colour Controls 2019.csproj", "{A2F6A6C7-A8A9-4509-93E0-EDF09B6A03A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extended Docking 2019", "Componentisation\Extended Docking\Extended Docking 2019.csproj", "{8E3D0185-FCA5-4BF4-ABF9-A04AB6A0CF90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extended Docking 2019", "Componentisation\Extended Docking\Extended Docking 2019.csproj", "{8E3D0185-FCA5-4BF4-ABF9-A04AB6A0CF90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extended Menu and Toolbar Items 2019", "Componentisation\Extended Menu and Toolbar Items\Extended Menu and Toolbar Items 2019.csproj", "{C6C970D3-A65B-4C1A-9043-81A1E90B8C8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extended Menu and Toolbar Items 2019", "Componentisation\Extended Menu and Toolbar Items\Extended Menu and Toolbar Items 2019.csproj", "{C6C970D3-A65B-4C1A-9043-81A1E90B8C8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extended Standard Controls 2019", "Componentisation\Extended Standard Controls\Extended Standard Controls 2019.csproj", "{3FEB06A7-B28C-4674-8C84-18A75EDAB3EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extended Standard Controls 2019", "Componentisation\Extended Standard Controls\Extended Standard Controls 2019.csproj", "{3FEB06A7-B28C-4674-8C84-18A75EDAB3EB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Templates 2019", "Componentisation\Floatable Tool and Menu Strips\Templates 2019.csproj", "{8268BDAF-1E0C-4E3A-A7B5-661C512BE557}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Floating Toolbars 2019", "Componentisation\Floating Toolbars\Floating Toolbars 2019.csproj", "{1893C8B4-3215-4F77-9AFF-24659EC475BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Floating Toolbars 2019", "Componentisation\Floating Toolbars\Floating Toolbars 2019.csproj", "{1893C8B4-3215-4F77-9AFF-24659EC475BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Information Box 2019", "Componentisation\Information Box\Information Box 2019.csproj", "{37A347A2-38D0-43BD-98E4-198F8A2BF032}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Information Box 2019", "Componentisation\Information Box\Information Box 2019.csproj", "{37A347A2-38D0-43BD-98E4-198F8A2BF032}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IO Components 2019", "Componentisation\IO Components\IO Components 2019.csproj", "{D511D3C1-3F1F-49D7-80EB-BBAB364F4A0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IO Components 2019", "Componentisation\IO Components\IO Components 2019.csproj", "{D511D3C1-3F1F-49D7-80EB-BBAB364F4A0F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Item Templates 2019", "Componentisation\Item Templates\Item Templates 2019.csproj", "{187B24BA-4B66-4D61-9BD6-D0E83DB45BD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krypton Outlook Grid 2019", "Componentisation\Krypton Outlook Grid\Krypton Outlook Grid 2019.csproj", "{2A10C696-45AD-48AA-8EAD-2CB322672972}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Krypton Outlook Grid 2019", "Componentisation\Krypton Outlook Grid\Krypton Outlook Grid 2019.csproj", "{2A10C696-45AD-48AA-8EAD-2CB322672972}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krypton Sparkle 2019", "Componentisation\Krypton Sparkle\Krypton Sparkle 2019.csproj", "{501F76BC-0CC8-4680-9497-489539D65944}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Krypton Sparkle 2019", "Componentisation\Krypton Sparkle\Krypton Sparkle 2019.csproj", "{501F76BC-0CC8-4680-9497-489539D65944}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krypton Wizard 2019", "Componentisation\Krypton Wizard\Krypton Wizard 2019.csproj", "{CA97E339-2014-47E3-890B-DF35F31EC11F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Krypton Wizard 2019", "Componentisation\Krypton Wizard\Krypton Wizard 2019.csproj", "{CA97E339-2014-47E3-890B-DF35F31EC11F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palette Renderer 2019", "Componentisation\Palette Renderer\Palette Renderer 2019.csproj", "{87182631-9FEB-4250-B39F-63BB6714AEA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaviSuite 2019", "Componentisation\NaviSuite\NaviSuite 2019.csproj", "{82ABD367-ED24-424C-B572-6661F968E2D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NaviSuite 2019", "Componentisation\NaviSuite\NaviSuite 2019.csproj", "{82ABD367-ED24-424C-B572-6661F968E2D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scintilla Extended 2019", "Componentisation\Scintilla Extended\Scintilla Extended 2019.csproj", "{6EF90793-B892-4C05-909D-99BF484F9665}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task Dialogs 2019", "Componentisation\Task Dialogs\Task Dialogs 2019.csproj", "{1B470AF7-AC66-4BF6-9F75-294A7D1A9DDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task Dialogs 2019", "Componentisation\Task Dialogs\Task Dialogs 2019.csproj", "{1B470AF7-AC66-4BF6-9F75-294A7D1A9DDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm Animation Extended 2019", "Componentisation\WinForm Animation Extended\WinForm Animation Extended 2019.csproj", "{5FB8D2C2-A56F-43F7-9B83-6780872C38DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinForm Animation Extended 2019", "Componentisation\WinForm Animation Extended\WinForm Animation Extended 2019.csproj", "{5FB8D2C2-A56F-43F7-9B83-6780872C38DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extended Dialogs 2019", "Componentisation\Extended Dialogs\Extended Dialogs 2019.csproj", "{222C7D90-9D2A-4736-B58D-80AF566BA167}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extended Dialogs 2019", "Componentisation\Extended Dialogs\Extended Dialogs 2019.csproj", "{222C7D90-9D2A-4736-B58D-80AF566BA167}"
 EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Full Toolkit Documentation", "..\Documentation\Full Toolkit Documentation\Full Toolkit Documentation.shfbproj", "{2BBF5CC9-0A5C-4943-BD81-006564E5FC61}"
 EndProject
@@ -261,7 +265,7 @@ Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Extended Menu and Toolbar I
 EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Extended Standard Controls Documentation", "..\Documentation\Extended Standard Controls Documentation\Extended Standard Controls Documentation.shfbproj", "{EE915793-D1EA-430E-9F3D-B16B35E08809}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolkit Language Model 2019", "Shared\Toolkit Language Model\Toolkit Language Model 2019.csproj", "{C0AE3457-F726-4F70-8226-5A151C23A188}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toolkit Language Model 2019", "Shared\Toolkit Language Model\Toolkit Language Model 2019.csproj", "{C0AE3457-F726-4F70-8226-5A151C23A188}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

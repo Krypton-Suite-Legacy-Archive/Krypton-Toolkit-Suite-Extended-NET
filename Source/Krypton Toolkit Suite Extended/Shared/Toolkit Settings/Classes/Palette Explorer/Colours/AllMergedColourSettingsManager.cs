@@ -937,12 +937,12 @@ namespace ToolkitSettings.Classes.PaletteExplorer.Colours
                 writer.Close();
 
                 writer.Dispose();
-        }
+            }
             catch (Exception exc)
             {
                 ExceptionHandler.CaptureException(exc, icon: MessageBoxIcon.Error, methodSignature: MethodHelpers.GetCurrentMethod());
             }
-}
+        }
 
         public static void WriteRGBColoursToFile(string colourConfigurationFilePath)
         {

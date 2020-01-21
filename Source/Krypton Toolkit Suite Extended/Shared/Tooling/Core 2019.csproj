@@ -14,6 +14,7 @@
     <PackageReference Include="Krypton.Navigator" Version="5.490.2200" />
     <PackageReference Include="Krypton.Ribbon" Version="5.490.2200" />
     <PackageReference Include="Krypton.Toolkit" Version="5.490.2200" />
+    <PackageReference Include="WindowsAPICodePack" Version="1.1.0" />
   </ItemGroup>
 
 </Project>

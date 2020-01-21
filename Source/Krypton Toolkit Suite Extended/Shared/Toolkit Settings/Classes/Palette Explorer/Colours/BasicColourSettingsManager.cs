@@ -8,7 +8,7 @@
 #endregion
 
 using ComponentFactory.Krypton.Toolkit;
-using Core.Classes;
+using ToolkitSettings.Classes.Core;
 using Microsoft.WindowsAPICodePack.Dialogs;
 using System;
 using System.Drawing;
@@ -16,6 +16,7 @@ using System.IO;
 using System.Windows.Forms;
 using ToolkitSettings.BackEnd;
 using ToolkitSettings.Settings.PaletteExplorer.Colours;
+using Core.Classes;
 
 namespace ToolkitSettings.Classes.PaletteExplorer.Colours
 {

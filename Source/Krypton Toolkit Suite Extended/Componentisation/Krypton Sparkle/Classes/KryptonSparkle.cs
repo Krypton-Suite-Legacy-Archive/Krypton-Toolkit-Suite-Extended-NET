@@ -1025,7 +1025,7 @@ namespace KryptonSparkle.Classes
         /// <param name="e">not used.</param>
         private void OnWpfApplicationExit(object sender, ExitEventArgs e)
         {
-            System.Windows.Application.Current.Exit -= OnWpfApplicationExit;
+            Application.Current.Exit -= OnWpfApplicationExit;
             if (_restartProcess != null)
             {
                 _restartProcess.Start();

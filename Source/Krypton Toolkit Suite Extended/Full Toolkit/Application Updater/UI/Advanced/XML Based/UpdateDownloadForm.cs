@@ -8,6 +8,7 @@
 #endregion
 
 using ComponentFactory.Krypton.Toolkit;
+using Core.Classes.Other;
 using GlobalUtilities.Classes;
 using KryptonApplicationUpdater.Classes;
 using KryptonApplicationUpdater.Classes.SettingsManager;

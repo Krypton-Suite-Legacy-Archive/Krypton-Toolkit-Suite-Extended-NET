@@ -13,4 +13,9 @@
     <PackageReference Include="Krypton.Toolkit" Version="5.490.2200" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\Global Utilities\Global Utilities 2019.csproj" />
+    <ProjectReference Include="..\..\Shared\Tooling\Core 2019.csproj" />
+  </ItemGroup>
+
 </Project>

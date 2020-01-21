@@ -14,4 +14,8 @@
     <PackageReference Include="WindowsAPICodePack" Version="1.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Global Utilities\Global Utilities 2019.csproj" />
+  </ItemGroup>
+
 </Project>
