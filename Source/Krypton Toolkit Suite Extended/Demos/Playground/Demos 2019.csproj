@@ -292,6 +292,9 @@
     <EmbeddedResource Include="UACExample.resx">
       <DependentUpon>UACExample.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="..\..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -364,9 +367,6 @@
   <ItemGroup>
     <PackageReference Include="Cyotek.Windows.Forms.ColorPicker">
       <Version>1.7.2</Version>
-    </PackageReference>
-    <PackageReference Include="Krypton.Toolkit">
-      <Version>5.490.2200</Version>
     </PackageReference>
     <PackageReference Include="WindowsAPICodePack">
       <Version>1.1.0</Version>

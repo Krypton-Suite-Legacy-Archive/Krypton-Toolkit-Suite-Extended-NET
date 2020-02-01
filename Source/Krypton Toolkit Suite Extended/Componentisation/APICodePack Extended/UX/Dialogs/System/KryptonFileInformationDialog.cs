@@ -1509,7 +1509,9 @@ namespace KryptonAPICodePackExtendedDialogs
             {
                 fileLength = fileStream.Length;
 
+#pragma warning disable IDE0063 // Use simple 'using' statement
                 using (HashAlgorithm ripemd160 = RIPEMD160.Create())
+#pragma warning restore IDE0063 // Use simple 'using' statement
                 {
                     do
                     {

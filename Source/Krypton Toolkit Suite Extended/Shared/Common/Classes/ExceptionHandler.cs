@@ -13,7 +13,6 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Runtime.CompilerServices;
-using System.Runtime.ExceptionServices;
 using System.Windows.Forms;
 
 namespace Common
@@ -140,6 +139,7 @@ namespace Common
         {
             try
             {
+                /*
                 ExceptionDispatchInfo exceptionInfo = null;
 
                 if (!File.Exists(fileName))
@@ -156,6 +156,7 @@ namespace Common
                 writer.Close();
 
                 writer.Dispose();
+                */
             }
             catch (Exception ex)
             {

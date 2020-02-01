@@ -7,23 +7,18 @@
     <UseWindowsForms>true</UseWindowsForms>
     <AssemblyVersion>1.0.3.0</AssemblyVersion>
     <FileVersion>1.0.3.0</FileVersion>
-    <AutoIncrementPackageRevision>true</AutoIncrementPackageRevision>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Krypton.Ribbon" Version="5.490.2200" />
-    <PackageReference Include="Krypton.Toolkit" Version="5.490.2200" />
+    <PackageReference Include="Krypton.Ribbon" Version="5.500.2002" />
+    <PackageReference Include="Krypton.Toolkit" Version="5.500.2002" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Compilers" Version="3.4.0" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="3.1.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Shared\Common\Common 2019.csproj" />
+    <ProjectReference Include="..\..\Shared\Toolkit Settings\Toolkit Settings 2019.csproj" />
   </ItemGroup>
-  
-  
-  <ItemGroup>
-    <Reference Include="Microsoft.VisualBasic">
-      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\Microsoft.VisualBasic.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>

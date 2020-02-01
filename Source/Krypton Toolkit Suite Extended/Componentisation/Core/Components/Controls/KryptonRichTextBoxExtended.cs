@@ -7,7 +7,7 @@
  */
 #endregion
 
- 
+
 using ComponentFactory.Krypton.Toolkit;
 using System;
 using System.ComponentModel;
@@ -55,7 +55,7 @@ namespace KryptonToolkitSuiteExtendedCore
         #endregion
 
         #region Properties        
-#if !NET45
+
         /// <summary>
         /// Gets or sets the selection alignment.
         /// </summary>
@@ -71,7 +71,9 @@ namespace KryptonToolkitSuiteExtendedCore
 
                 PARAFORMAT pARAFORMAT = new PARAFORMAT()
                 {
+#if !NET45 && !NET40
                     cbSize = Marshal.SizeOf<PARAFORMAT>(_pARAFORMAT)
+#endif
                 };
 
                 _pARAFORMAT = pARAFORMAT;
@@ -94,9 +96,11 @@ namespace KryptonToolkitSuiteExtendedCore
             {
                 PARAFORMAT pARAFORMAT = new PARAFORMAT()
                 {
+#if !NET45 && !NET40
                     cbSize = Marshal.SizeOf<PARAFORMAT>(_pARAFORMAT),
                     dwMask = 8,
                     wAlignment = (short)value
+#endif
                 };
 
                 _pARAFORMAT = pARAFORMAT;
@@ -104,9 +108,8 @@ namespace KryptonToolkitSuiteExtendedCore
                 SendMessage(new HandleRef(this, Handle), 1095, 1, ref _pARAFORMAT);
             }
         }
-#endif
 
-#endregion
+        #endregion
 
         #region Constructor
         /// <summary>
@@ -217,9 +220,12 @@ namespace KryptonToolkitSuiteExtendedCore
 
             IntPtr zero1 = IntPtr.Zero;
 
+#if !NET45 && !NET40
+
             zero1 = Marshal.AllocCoTaskMem(Marshal.SizeOf<FORMATRANGE>(fORMATRANGE));
 
             Marshal.StructureToPtr<FORMATRANGE>(fORMATRANGE, zero1, false);
+#endif
 
             zero = SendMessage(Handle, 1081, intPtr, zero1);
 

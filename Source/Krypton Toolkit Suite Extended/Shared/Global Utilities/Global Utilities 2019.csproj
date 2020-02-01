@@ -7,11 +7,13 @@
     <UseWindowsForms>true</UseWindowsForms>
     <AssemblyVersion>1.0.3.0</AssemblyVersion>
     <FileVersion>1.0.3.0</FileVersion>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Krypton.Toolkit" Version="5.490.2200" />
-    <PackageReference Include="WindowsAPICodePack" Version="1.1.0" />
+    <PackageReference Include="Krypton.Toolkit" Version="5.500.2002" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="3.1.0" />
+    <PackageReference Include="WindowsAPICodePack" Version="1.1.1" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net48'">

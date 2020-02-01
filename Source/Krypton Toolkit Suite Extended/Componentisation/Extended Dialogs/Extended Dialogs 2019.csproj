@@ -11,8 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="Cyotek.Windows.Forms.ColorPicker" Version="1.7.2" />
-    <PackageReference Include="Krypton.Navigator" Version="5.490.2200" />
-    <PackageReference Include="Krypton.Toolkit" Version="5.490.2200" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="3.1.0" />
   </ItemGroup>
 
   <ItemGroup>

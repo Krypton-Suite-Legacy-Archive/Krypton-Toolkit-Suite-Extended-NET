@@ -1,5 +1,4 @@
 ﻿using Microsoft.VisualBasic;
-using Microsoft.VisualBasic.CompilerServices;
 using System;
 using System.Collections;
 using System.Runtime.InteropServices;
@@ -7,6 +6,8 @@ using System.Windows.Forms;
 
 namespace KryptonToolkitSuiteExtendedCore
 {
+    // TODO: Fix this class!
+    /*
     public class ListViewSort : IComparer
     {
 
@@ -139,5 +140,5 @@ namespace KryptonToolkitSuiteExtendedCore
             TextIgnoreCase = 1
         }
     }
-
+    */
 }

@@ -10,9 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Krypton.Navigator" Version="5.490.2200" />
-    <PackageReference Include="Krypton.Toolkit" Version="5.490.2200" />
-    <PackageReference Include="WindowsAPICodePack" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="3.1.0" />
   </ItemGroup>
 
   <ItemGroup>
