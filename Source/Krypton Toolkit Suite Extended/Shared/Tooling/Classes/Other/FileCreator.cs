@@ -8,7 +8,6 @@
 #endregion
 
 using Core.Properties;
-using EasyScintilla;
 using System;
 using System.IO;
 
@@ -28,10 +27,10 @@ namespace Core.Classes.Other
         #endregion
 
         #region Methods
-        public void GenerateNewFile(SimpleEditor editor)
-        {
-            editor.Text = string.Format(Resources.FreshFile, DateTime.Now.ToString());
-        }
+        //public void GenerateNewFile(SimpleEditor editor)
+        //{
+        //    editor.Text = string.Format(Resources.FreshFile, DateTime.Now.ToString());
+        //}
 
         /// <summary>
         /// Writes the colour file.

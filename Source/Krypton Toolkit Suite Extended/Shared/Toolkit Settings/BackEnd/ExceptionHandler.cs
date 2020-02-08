@@ -93,6 +93,7 @@ namespace ToolkitSettings.BackEnd
         /// <param name="fileName">The file to write the exception stacktrace to.</param>
         public static void PrintStackTrace(Exception exc, string fileName)
         {
+            #if !NET40
             try
             {
                 ExceptionDispatchInfo exceptionInfo = null;
@@ -117,6 +118,7 @@ namespace ToolkitSettings.BackEnd
 
                 throw;
             }
+        #endif
         }
 
         /// <summary>
@@ -147,12 +149,12 @@ namespace ToolkitSettings.BackEnd
                 throw;
             }
         }
-        #endregion
+#endregion
     }
 
     internal class MethodHelpers
     {
-        #region Methods
+#region Methods
         [MethodImpl(MethodImplOptions.NoInlining)]
         public static string GetCurrentMethod()
         {
@@ -162,6 +164,6 @@ namespace ToolkitSettings.BackEnd
 
             return stackFrame.GetMethod().ToString();
         }
-        #endregion
+#endregion
     }
 }

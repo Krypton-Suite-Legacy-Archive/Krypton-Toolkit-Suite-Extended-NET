@@ -8,6 +8,7 @@
 #endregion
 
 using ExtendedControls.ExtendedToolkit.Controls;
+using KryptonToolkitSuiteExtendedCore;
 using System.Drawing;
 using System.Windows.Forms;
 
