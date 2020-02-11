@@ -24,6 +24,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>ColourStringSettings.settings</DependentUpon>
     </Compile>
+    <Compile Update="Settings\Dialogs\Run\RunDialogSettings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RunDialogSettings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -41,6 +46,10 @@
     <None Update="Settings\Core\ColourStringSettings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>ColourStringSettings.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="Settings\Dialogs\Run\RunDialogSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>RunDialogSettings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
 
