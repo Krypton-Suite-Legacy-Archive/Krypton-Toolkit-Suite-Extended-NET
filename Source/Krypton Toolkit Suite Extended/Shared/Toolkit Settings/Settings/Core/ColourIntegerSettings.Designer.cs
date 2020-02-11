@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ToolkitSettings.Core {
+namespace ToolkitSettings.Settings.Core {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

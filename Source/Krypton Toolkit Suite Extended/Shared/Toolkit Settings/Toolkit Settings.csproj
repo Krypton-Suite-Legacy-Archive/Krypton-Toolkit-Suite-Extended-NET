@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
     <LangVersion>8.0</LangVersion>
@@ -9,10 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Update="Core\ColourIntegerSettings.Designer.cs">
+    <Compile Update="Settings\Core\ColourIntegerSettings.Designer.cs">
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <AutoGen>True</AutoGen>
       <DependentUpon>ColourIntegerSettings.settings</DependentUpon>
+    </Compile>
+    <Compile Update="Settings\Core\ColourStringSettings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ColourStringSettings.settings</DependentUpon>
     </Compile>
     <Compile Update="DateTime\DateTimeSpanResources.Designer.cs">
       <DesignTime>True</DesignTime>
@@ -29,12 +34,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Core\ColourIntegerSettings.settings">
+    <None Update="Settings\Core\ColourIntegerSettings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>ColourIntegerSettings.Designer.cs</LastGenOutput>
     </None>
-    <None Update="Core\ColourStringSettings.settings">
+    <None Update="Settings\Core\ColourStringSettings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>ColourStringSettings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
 
