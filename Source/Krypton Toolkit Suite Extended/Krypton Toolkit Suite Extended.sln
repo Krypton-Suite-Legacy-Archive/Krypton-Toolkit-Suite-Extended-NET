@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29721.120
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{0FC2D6C3-9CA1-46CF-8E37-4B900B07184D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolkit Core", "Shared\Toolkit Core\Toolkit Core.csproj", "{9E5B6FE5-89B9-4483-942F-7332E9BC4599}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E5B6FE5-89B9-4483-942F-7332E9BC4599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E5B6FE5-89B9-4483-942F-7332E9BC4599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E5B6FE5-89B9-4483-942F-7332E9BC4599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E5B6FE5-89B9-4483-942F-7332E9BC4599}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E5B6FE5-89B9-4483-942F-7332E9BC4599} = {0FC2D6C3-9CA1-46CF-8E37-4B900B07184D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A189168-3746-4F9F-8C61-863D83D8ABD2}
