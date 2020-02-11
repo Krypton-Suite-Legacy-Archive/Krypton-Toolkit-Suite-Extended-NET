@@ -9,6 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Update="DateTime\DateTimeSpanResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DateTimeSpanResources.resx</DependentUpon>
+    </Compile>
     <Compile Update="Settings\Core\ColourIntegerSettings.Designer.cs">
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <AutoGen>True</AutoGen>
@@ -18,11 +23,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <AutoGen>True</AutoGen>
       <DependentUpon>ColourStringSettings.settings</DependentUpon>
-    </Compile>
-    <Compile Update="DateTime\DateTimeSpanResources.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>DateTimeSpanResources.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 

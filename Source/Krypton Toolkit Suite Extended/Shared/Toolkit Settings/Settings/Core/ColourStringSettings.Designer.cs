@@ -430,5 +430,77 @@ namespace ToolkitSettings.Settings.Core {
                 this["StatusStripTextColour"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string RibbonTabTextColour {
+            get {
+                return ((string)(this["RibbonTabTextColour"]));
+            }
+            set {
+                this["RibbonTabTextColour"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string DisabledTextColour {
+            get {
+                return ((string)(this["DisabledTextColour"]));
+            }
+            set {
+                this["DisabledTextColour"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string NormalTextColour {
+            get {
+                return ((string)(this["NormalTextColour"]));
+            }
+            set {
+                this["NormalTextColour"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string PressedTextColour {
+            get {
+                return ((string)(this["PressedTextColour"]));
+            }
+            set {
+                this["PressedTextColour"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FocusedTextColour {
+            get {
+                return ((string)(this["FocusedTextColour"]));
+            }
+            set {
+                this["FocusedTextColour"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string MediumColour {
+            get {
+                return ((string)(this["MediumColour"]));
+            }
+            set {
+                this["MediumColour"] = value;
+            }
+        }
     }
 }
