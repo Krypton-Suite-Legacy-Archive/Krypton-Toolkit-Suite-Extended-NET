@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
     <LangVersion>8.0</LangVersion>
@@ -9,10 +9,30 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Update="DateTime\DateTimeSpanResources.Designer.cs">
+    <Compile Update="Resources\DateTime\DateTimeSpanResources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>DateTimeSpanResources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\ToolkitSettingsResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ToolkitSettingsResources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Settings\Controls\BooleanSettings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BooleanSettings.settings</DependentUpon>
+    </Compile>
+    <Compile Update="Settings\Controls\StringSettings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>StringSettings.settings</DependentUpon>
+    </Compile>
+    <Compile Update="Settings\Controls\WindowLocationSettings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>WindowLocationSettings.settings</DependentUpon>
     </Compile>
     <Compile Update="Settings\Core\ColourIntegerSettings.Designer.cs">
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -32,13 +52,32 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="DateTime\DateTimeSpanResources.resx">
+    <EmbeddedResource Update="Resources\DateTime\DateTimeSpanResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>DateTimeSpanResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\ToolkitSettingsResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ToolkitSettingsResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Settings\Controls\BooleanSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>BooleanSettings.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="Settings\Controls\StringSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>StringSettings.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="Settings\Controls\ThemeSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+    </None>
+    <None Update="Settings\Controls\WindowLocationSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>WindowLocationSettings.Designer.cs</LastGenOutput>
+    </None>
     <None Update="Settings\Core\ColourIntegerSettings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>ColourIntegerSettings.Designer.cs</LastGenOutput>
