@@ -54,6 +54,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>GlobalBooleanSettings.settings</DependentUpon>
     </Compile>
+    <Compile Update="Settings\Global\GlobalEnumerationSettings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>GlobalEnumerationSettings.settings</DependentUpon>
+    </Compile>
+    <Compile Update="Settings\Global\GlobalStringSettings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>GlobalStringSettings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -98,6 +108,14 @@
     <None Update="Settings\Global\GlobalBooleanSettings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>GlobalBooleanSettings.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="Settings\Global\GlobalEnumerationSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>GlobalEnumerationSettings.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="Settings\Global\GlobalStringSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>GlobalStringSettings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
 
