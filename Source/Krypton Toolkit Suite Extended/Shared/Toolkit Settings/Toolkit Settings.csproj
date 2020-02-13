@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
     <LangVersion>8.0</LangVersion>
@@ -49,6 +49,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>RunDialogSettings.settings</DependentUpon>
     </Compile>
+    <Compile Update="Settings\Global\GlobalBooleanSettings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>GlobalBooleanSettings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -89,6 +94,10 @@
     <None Update="Settings\Dialogs\Run\RunDialogSettings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>RunDialogSettings.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="Settings\Global\GlobalBooleanSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>GlobalBooleanSettings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
 
