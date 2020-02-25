@@ -71,12 +71,12 @@ namespace ToolkitSettings.Settings.Global {
   <string>SHA-512 Files</string>
   <string>All Files</string>
 </ArrayOfString>")]
-        public global::System.Collections.Specialized.StringCollection HashReadableFileTypesFilterList {
+        public global::System.Collections.Specialized.StringCollection HashReadableFileTypesFilterListCollection {
             get {
-                return ((global::System.Collections.Specialized.StringCollection)(this["HashReadableFileTypesFilterList"]));
+                return ((global::System.Collections.Specialized.StringCollection)(this["HashReadableFileTypesFilterListCollection"]));
             }
             set {
-                this["HashReadableFileTypesFilterList"] = value;
+                this["HashReadableFileTypesFilterListCollection"] = value;
             }
         }
         
@@ -92,9 +92,33 @@ namespace ToolkitSettings.Settings.Global {
   <string>.sha512</string>
   <string>*.*</string>
 </ArrayOfString>")]
-        public global::System.Collections.Specialized.StringCollection HashFileTypeExtensionList {
+        public global::System.Collections.Specialized.StringCollection HashFileTypeExtensionListCollection {
             get {
-                return ((global::System.Collections.Specialized.StringCollection)(this["HashFileTypeExtensionList"]));
+                return ((global::System.Collections.Specialized.StringCollection)(this["HashFileTypeExtensionListCollection"]));
+            }
+            set {
+                this["HashFileTypeExtensionListCollection"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string HashReadableFileTypesFilterList {
+            get {
+                return ((string)(this["HashReadableFileTypesFilterList"]));
+            }
+            set {
+                this["HashReadableFileTypesFilterList"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string HashFileTypeExtensionList {
+            get {
+                return ((string)(this["HashFileTypeExtensionList"]));
             }
             set {
                 this["HashFileTypeExtensionList"] = value;

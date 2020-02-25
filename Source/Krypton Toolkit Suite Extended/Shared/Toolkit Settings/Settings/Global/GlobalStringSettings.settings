@@ -11,7 +11,7 @@
     <Setting Name="PaletteExportPath" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="HashReadableFileTypesFilterList" Type="System.Collections.Specialized.StringCollection" Scope="User">
+    <Setting Name="HashReadableFileTypesFilterListCollection" Type="System.Collections.Specialized.StringCollection" Scope="User">
       <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;string&gt;MD5 Files&lt;/string&gt;
@@ -23,7 +23,7 @@
   &lt;string&gt;All Files&lt;/string&gt;
 &lt;/ArrayOfString&gt;</Value>
     </Setting>
-    <Setting Name="HashFileTypeExtensionList" Type="System.Collections.Specialized.StringCollection" Scope="User">
+    <Setting Name="HashFileTypeExtensionListCollection" Type="System.Collections.Specialized.StringCollection" Scope="User">
       <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;string&gt;.md5&lt;/string&gt;
@@ -34,6 +34,12 @@
   &lt;string&gt;.sha512&lt;/string&gt;
   &lt;string&gt;*.*&lt;/string&gt;
 &lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="HashReadableFileTypesFilterList" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="HashFileTypeExtensionList" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
     </Setting>
   </Settings>
 </SettingsFile>

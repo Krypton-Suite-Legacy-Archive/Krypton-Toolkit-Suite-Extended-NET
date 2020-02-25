@@ -119,4 +119,8 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Settings\Palette Explorer\" />
+  </ItemGroup>
+
 </Project>
